@@ -23,7 +23,7 @@
 3. Note a window pop up which display which line is covered
 
 # Part 1 - Add tests
-Add test to cover the code 100%.
+Add test and make sure the line of code coverage is 100%.
 
 DO NOT alter the Item class or Items property.
 

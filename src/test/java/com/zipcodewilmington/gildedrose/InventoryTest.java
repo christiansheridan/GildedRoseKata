@@ -117,7 +117,7 @@ public class InventoryTest {
     @Test
     public void notNames(){
         int before = item1.getQuality();
-        int expected = 0;
+        int expected = 3;
         inventory.updateQuality();
         int actual = item1.getQuality();
 
@@ -126,7 +126,7 @@ public class InventoryTest {
 
     @Test
     public void lastTest(){
-        int actual = 6;
+        int actual = 1;
         inventory.updateQuality();
         int expected = agedBrie.getQuality();
 
